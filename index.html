@@ -1,0 +1,163 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Maanas S — Portfolio</title>
+    <meta name="description" content="Maanas S — Computer BTech Engineer | Portfolio" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="container header-inner">
+        <div class="brand">
+          <span class="logo">&gt;_</span>
+          <div>
+            <h1 class="name">Maanas S</h1>
+            <p class="role">Computer BTech Engineer — Bengaluru</p>
+          </div>
+        </div>
+
+        <nav class="nav">
+          <button class="nav-toggle" aria-label="Toggle menu">☰</button>
+          <ul class="nav-list">
+            <li><a href="#about">About</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <section id="hero" class="hero">
+        <div class="container hero-inner">
+          <div class="hero-text">
+            <h2 class="mono headline">Hello, I'm Maanas — Play Valorant</h2>
+            <p class="lede">BTech @ VIT University (2029). I design simple, robust web experiences with a hacker/terminal aesthetic.</p>
+            <div class="cta-row">
+              <a class="btn" href="#projects">View Projects</a>
+              <a class="btn ghost" href="#contact">Get in touch</a>
+            </div>
+          </div>
+          <div class="hero-panel">
+            <pre class="terminal">
+&gt; location: Bengaluru
+&gt; role: Computer BTech Engineer
+&gt; grad: 2029
+&gt; languages: C++, Python, HTML
+&gt; tools: vs code
+            </pre>
+          </div>
+        </div>
+      </section>
+
+      <section id="about" class="section about">
+        <div class="container">
+          <h3 class="section-title mono">About</h3>
+          <p>I am a computer engineering student focused on building responsive websites and small tooling. I enjoy football and problem solving. I love working with clean UI and an efficient developer experience.</p>
+          <div class="education">
+            <strong>Education</strong>
+            <p>VIT University — BTech, Class of 2029</p>
+          </div>
+        </div>
+      </section>
+
+      <section id="skills" class="section skills">
+        <div class="container">
+          <h3 class="section-title mono">Skills</h3>
+          <div class="chips">
+            <span class="chip">C++</span>
+            <span class="chip">Python</span>
+            <span class="chip">HTML & CSS</span>
+            <span class="chip">VS Code</span>
+            <span class="chip">Create Website</span>
+          </div>
+        </div>
+      </section>
+
+      <section id="projects" class="section projects">
+        <div class="container">
+          <h3 class="section-title mono">Projects</h3>
+          <div class="project-grid">
+            <article class="project">
+              <h4 class="mono">vodka</h4>
+              <p class="muted">nice — a small demo project focusing on UI polish.</p>
+              <div class="project-tags"><span>HTML</span><span>CSS</span></div>
+            </article>
+
+            <article class="project">
+              <h4 class="mono">jack daniels</h4>
+              <p class="muted">good — backend automation and small tools.</p>
+              <div class="project-tags"><span>Python</span><span>CLI</span></div>
+            </article>
+
+            <article class="project">
+              <h4 class="mono">brocode</h4>
+              <p class="muted">better — collaborative coding utilities and experiments.</p>
+              <div class="project-tags"><span>C++</span><span>Algorithms</span></div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section id="contact" class="section contact">
+        <div class="container">
+          <h3 class="section-title mono">Contact</h3>
+          <p class="muted">Open to internships, collaborations, and learning new things.</p>
+          <div class="contact-grid">
+            <div class="contact-card">
+              <h4 class="mono">Email</h4>
+              <a href="mailto:EMAIL_ADDRESS">EMAIL_ADDRESS</a>
+            </div>
+            <div class="contact-card">
+              <h4 class="mono">GitHub</h4>
+              <a href="GITHUB_URL" target="_blank" rel="noopener">GITHUB_URL</a>
+            </div>
+            <div class="contact-card">
+              <h4 class="mono">LinkedIn</h4>
+              <a href="LINKEDIN_URL" target="_blank" rel="noopener">LINKEDIN_URL</a>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container footer-inner">
+        <p class="muted">&copy; <span id="year"></span> Maanas S — Built with HTML &amp; CSS</p>
+      </div>
+    </footer>
+
+    <script>
+      // Small JS for mobile menu toggle and dynamic year
+      (function(){
+        const toggle = document.querySelector('.nav-toggle');
+        const navList = document.querySelector('.nav-list');
+        toggle.addEventListener('click', ()=>{
+          navList.classList.toggle('open');
+        });
+
+        // Close menu when clicking a link (mobile)
+        document.querySelectorAll('.nav-list a').forEach(a=>{
+          a.addEventListener('click', ()=> navList.classList.remove('open'));
+        });
+
+        // Smooth scroll for in-page links
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+          anchor.addEventListener('click', function (e) {
+            const href = this.getAttribute('href');
+            if (href.length > 1) {
+              e.preventDefault();
+              document.querySelector(href).scrollIntoView({ behavior: 'smooth' });
+            }
+          });
+        });
+
+        // Year
+        document.getElementById('year').textContent = new Date().getFullYear();
+      })();
+    </script>
+  </body>
+</html>

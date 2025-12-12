@@ -32,9 +32,9 @@ Please populate the site with the following details. If a field is empty, use a 
 - Core Concepts: {{Create Website}}
 
 **Projects (Highlight 2-3):**
-1. {{vodka}}: {{nice}}
-2. {{jack daniels}}: {{good}}
-3. {{brocode}}: {{better}}
+1. {{proj}}: {{nice}}
+2. {{proj2}}: {{good}}
+3. {{proj3}}: {{better}}
 
 **Interests:**
 - Hobbies: {{Football}}
