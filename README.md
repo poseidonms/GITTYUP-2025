@@ -18,7 +18,7 @@ Please populate the site with the following details. If a field is empty, use a 
 **Personal Details:**
 - Full Name: {{Maanas S}}
 - Role/Title: {{Computer BTech Engineer}} (e.g., "Systems Engineer")
-- Tagline: {{Play Valorant}}
+- Tagline: {{Open Source Aritificial Intelligence}}
 - Location: {{Bengaluru}}
 
 **Education:**
@@ -32,13 +32,13 @@ Please populate the site with the following details. If a field is empty, use a 
 - Core Concepts: {{Create Website}}
 
 **Projects (Highlight 2-3):**
-1. {{proj}}: {{nice}}
-2. {{proj2}}: {{good}}
-3. {{proj3}}: {{better}}
+1. {{UI}}: {{a small demo project focusing on UI polish.}}
+2. {{FrontEnd}}: {{backend automation and tools.}}
+3. {{Design Interface}}: {{collaborative coding utilities and experiments.}}
 
 **Interests:**
-- Hobbies: {{Football}}
-- Soft Skills: {{I am }}
+- Hobbies: {{Web Design}}
+- Soft Skills: {{Start up App Developer}}
 
 **Links:**
 - GitHub: {{GITHUB_URL}}
