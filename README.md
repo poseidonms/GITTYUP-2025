@@ -16,29 +16,29 @@ You are an expert Senior Frontend Engineer and UI/UX Designer. Your task is to b
 Please populate the site with the following details. If a field is empty, use a professional placeholder.
 
 **Personal Details:**
-- Full Name: {{FULL_NAME}}
-- Role/Title: {{CURRENT_ROLE}} (e.g., "Systems Engineer")
-- Tagline: {{SHORT_TAGLINE}}
-- Location: {{LOCATION}}
+- Full Name: {{Maanas S}}
+- Role/Title: {{Computer BTech Engineer}} (e.g., "Systems Engineer")
+- Tagline: {{Play Valorant}}
+- Location: {{Bengaluru}}
 
 **Education:**
-- University: {{UNIVERSITY_NAME}}
-- Degree: {{DEGREE_MAJOR}}
-- Grad Year: {{GRAD_YEAR}}
+- University: {{VIT University}}
+- Degree: {{BTech}}
+- Grad Year: {{2029}}
 
 **Technical Skills:**
-- Languages: {{PROGRAMMING_LANGUAGES}}
-- Tools/Platforms: {{FRAMEWORKS_TOOLS}}
-- Core Concepts: {{CORE_CONCEPTS}}
+- Languages: {{C++, Python, HTML}}
+- Tools/Platforms: {{vs code}}
+- Core Concepts: {{Create Website}}
 
 **Projects (Highlight 2-3):**
-1. {{PROJECT_1_NAME}}: {{PROJECT_1_DESC}}
-2. {{PROJECT_2_NAME}}: {{PROJECT_2_DESC}}
-3. {{PROJECT_3_NAME}}: {{PROJECT_3_DESC}}
+1. {{vodka}}: {{nice}}
+2. {{jack daniels}}: {{good}}
+3. {{brocode}}: {{better}}
 
 **Interests:**
-- Hobbies: {{HOBBIES}}
-- Soft Skills: {{SOFT_SKILLS}}
+- Hobbies: {{Football}}
+- Soft Skills: {{I am }}
 
 **Links:**
 - GitHub: {{GITHUB_URL}}
